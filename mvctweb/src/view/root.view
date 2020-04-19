@@ -1,0 +1,18 @@
+<html>
+
+	<?prg
+
+		LOCAL cHtml := ''
+
+			cHtml += [<form action="{{ Route( 'mvctweb' ) }}" method="GET">]
+			cHtml += [	<button type="submit" name="action" value="tutor" > tutor</button>]
+			cHtml += '<p>'
+			cHtml += [	<button type="submit" name="action" value="tutor1" > tutor1</button>]
+			cHtml += '<p>'
+
+			cHtml += [</form>]
+
+		retu cHtml								
+	?>		
+
+</html>
